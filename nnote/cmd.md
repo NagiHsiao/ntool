@@ -14,10 +14,16 @@
 
 ## shortcut
 
-```
-//快速推送远程(-a~git add;-m~指定message)
-//【仅自动跟踪目标对象】
+```cpp
+# 快速推送远程【仅自动跟踪目标对象】
+# - git add .
+# - git commit -m "" && git push
 git commit -am "{Your commit message} && git push
+
+# 拉取远程main合并本地main
+# - git fetch
+# - git merge
+git pull
 ```
 
 ## [git](https://git-scm.com/book/zh/v2) status
