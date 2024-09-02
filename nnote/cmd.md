@@ -16,6 +16,7 @@
 
 ```
 //快速推送远程(-a~git add;-m~指定message)
+//【仅自动跟踪目标对象】
 git commit -am "{Your commit message} && git push
 ```
 
