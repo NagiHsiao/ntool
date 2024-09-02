@@ -101,6 +101,16 @@ git config --global https.proxy "127.0.0.1:7890"
 
 ![image-20240902180539509](./assets/image-20240902180539509.png)
 
+## 案例：删除commit
+
+```
+# alg.
+1.启动交互式debase：git rebase -i HEAD~{希望回溯数量} #eg. git rebase -i HEAD~5
+2.pick to drop：【编辑历史记录；保存退出:wq】
+```
+
+![image-20240902200741781](./assets/image-20240902200741781.png)
+
 # cmd相关
 
 ## start
