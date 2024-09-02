@@ -147,9 +147,9 @@ pip freeze > {requirement.txt}
 
 > 查看版本
 
-# mod相关
+## mod相关
 
-## py -m venv vr-1
+### py -m venv vr-1
 
 > 创建虚拟环境vr-1
 
