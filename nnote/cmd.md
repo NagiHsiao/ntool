@@ -20,8 +20,6 @@
 git commit -am "{Your commit message} && git push
 ```
 
-
-
 ## [git](https://git-scm.com/book/zh/v2) status
 
 ```cpp
@@ -71,16 +69,35 @@ git config --global http.proxy "127.0.0.1:7890"
 git config --global https.proxy "127.0.0.1:7890"
 ```
 
-## [Git 分支 ：新建与合并](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
+## [Git  Branch ：新建与合并](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
 
 ```
 # 新建并切换branch
 # - git branch iss53
 # - git checkout iss53
 git checkout -b {issue_code}
+
+#查看branch
+git branch 
 ```
 
+![image-20240902205813802](./assets/image-20240902205813802.png)
 
+```cpp
+# 推送branch到【远程】
+git push origin {issue_code}
+```
+
+![image-20240902210033895](./assets/image-20240902210033895.png)
+
+```
+# 本地merge
+1.【切回default branch】：git checkout main
+2.【merge】：git merge iss0
+3.【推送远程】：git push origin main
+```
+
+![image-20240902210328095](./assets/image-20240902210328095.png)
 
 ## 案例：merge
 
