@@ -10,7 +10,7 @@
 
 ![image-20240902151414027](./assets/image-20240902151414027.png)
 
-# github
+# [github](https://github.com/nsgih/ntool)
 
 ## [git](https://git-scm.com/book/zh/v2) status
 
@@ -60,6 +60,10 @@ git remote -v //查看远程仓库
 git config --global http.proxy "127.0.0.1:7890"  
 git config --global https.proxy "127.0.0.1:7890"
 ```
+
+## [Git 分支 ：新建与合并](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
+
+
 
 ## 案例：merge
 
@@ -202,6 +206,12 @@ py -m venv {name_of_venv}
 ```
 
 # test：图床
+
+> Q1配置自动更新assets：typora
+
+![image-20240902182752502](./assets/image-20240902182752502.png)
+
+
 
 ![image-20240902172723205](./assets/image-20240902172723205.png)
 
