@@ -12,6 +12,15 @@
 
 # [github](https://github.com/nsgih/ntool)
 
+## shortcut
+
+```
+//快速推送远程(-a~git add;-m~指定message)
+git commit -am "{Your commit message} && git push
+```
+
+
+
 ## [git](https://git-scm.com/book/zh/v2) status
 
 ```cpp
@@ -97,7 +106,7 @@ git config --global https.proxy "127.0.0.1:7890"
 ## start
 
 ```cpp
-start {cmd.md}  //打开文件
+start [{cmd.md}|.]  //打开文件
 git diff  //比较暂存staged和文件系统
 ```
 

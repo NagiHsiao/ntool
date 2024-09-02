@@ -1,5 +1,4 @@
 # ntool
-自用脚本：练习github的branch、git push/clone功能 #github
+自用脚本：练习github的branch、git push/clone功能。
 
-#windows
-
+![dh_dyg34](./assets/dh_dyg34.jpg)
