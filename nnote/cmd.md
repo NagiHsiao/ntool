@@ -47,6 +47,13 @@ git config --global https.proxy "127.0.0.1:7890"
 
 # cmd相关
 
+## start
+
+```cpp
+start {cmd.md}  //打开文件
+git diff  //比较暂存staged和文件系统
+```
+
 ## dir
 
 ```
