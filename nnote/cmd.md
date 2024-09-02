@@ -26,8 +26,8 @@ git rm  [ {文件} //删除暂存
          					 //{log/目录下扩展名.logs所有文件}
 ]
 
-git log -p -2   //历史提交
-git log --stats //简略    
+git log -p -2   //查看log
+git log [--stats] //可选：查看详细状态    
 
 //修订
 git commit --amend 
@@ -74,6 +74,19 @@ git config --global https.proxy "127.0.0.1:7890"
 > 2.删除多余内容，修改之后再正常commit、push
 
 ![image-20240902171058718](./assets/image-20240902171058718.png)
+
+## 案例：远程回退
+
+```cpp
+#alg.
+1.更新【本地分支】到最新: git pull origin main
+2.【本地】回退：git reset --hard HEAD~1
+3.强制推送【本地】到远程: git push origin main --force
+
+0a.查看commit message: git log
+```
+
+![image-20240902180539509](./assets/image-20240902180539509.png)
 
 # cmd相关
 
