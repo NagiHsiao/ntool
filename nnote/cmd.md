@@ -25,13 +25,23 @@ git rm  [ {文件} //删除暂存
         | {\*~}{log/\*.log}  //Glob模式 {~结尾文件}
          					 //{log/目录下扩展名.logs所有文件}
 ]
-    
-git log -p -2   //历史提交
-git log --stats //简略
 
+git log -p -2   //历史提交
+git log --stats //简略    
+
+//修订
+git commit --amend 
 ```
 
 ![image-20240902150712265](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902150712265.png)
+
+```cpp
+//删除
+git reset --soft HEAD~1 //软删除，保留工作目录
+git reset --hard HEAD~1 //硬删除，回退到【上个提交】
+```
+
+![image-20240902165048275](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902165048275.png)
 
 ## [git clone配置代理](https://blog.xiaoqi.work/index.php/2024/01/31/hello-world/)
 
