@@ -4,11 +4,11 @@
 
 # [Glob模式](https://www.cnblogs.com/savorboard/p/glob.html)
 
-![image-20240902160216279](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902160216279.png)
+![image-20240902160216279](./assets/image-20240902160216279.png)
 
 # [BNF](https://hackmd.io/@ShenTengTu/HJzCM3aDr)
 
-![image-20240902151414027](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902151414027.png)
+![image-20240902151414027](./assets/image-20240902151414027.png)
 
 # github
 
@@ -33,7 +33,7 @@ git log --stats //简略
 git commit --amend 
 ```
 
-![image-20240902150712265](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902150712265.png)
+![image-20240902150712265](./assets/image-20240902150712265.png)
 
 ```cpp
 //删除
@@ -41,7 +41,15 @@ git reset --soft HEAD~1 //软删除，保留工作目录
 git reset --hard HEAD~1 //硬删除，回退到【上个提交】
 ```
 
-![image-20240902165048275](C:\Users\ZhuanZ\AppData\Roaming\Typora\typora-user-images\image-20240902165048275.png)
+![image-20240902165048275](./assets/image-20240902165048275.png)
+
+## origin main
+
+```
+git remote -v //查看远程仓库
+```
+
+![image-20240902173055726](./assets/image-20240902173055726.png)
 
 ## [git clone配置代理](https://blog.xiaoqi.work/index.php/2024/01/31/hello-world/)
 
@@ -53,7 +61,19 @@ git config --global http.proxy "127.0.0.1:7890"
 git config --global https.proxy "127.0.0.1:7890"
 ```
 
+## 案例：merge
 
+> 0.准备：【本地】、【远程】出现冲突先git pull orgin main
+
+![image-20240902170457291](./assets/image-20240902170457291.png)
+
+> 1.git pull orgin main，会自动merge。
+
+![image-20240902171013388](./assets/image-20240902170952292.png)
+
+> 2.删除多余内容，修改之后再正常commit、push
+
+![image-20240902171058718](./assets/image-20240902171058718.png)
 
 # cmd相关
 
@@ -167,4 +187,8 @@ pip freeze > {requirement.txt}
 //venv name and filename at same time
 py -m venv {name_of_venv}
 ```
+
+# test：图床
+
+![image-20240902172723205](./assets/image-20240902172723205.png)
 
